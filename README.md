@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Shreyas8905
+- 👋 Hi, Shreyas Kulkarni
 - 👀 I’m interested in Artificial Intelligence and Machine Learning
 - 🌱 I’m currently learning Python for AI and ML
 - 💞️ I’m looking to collaborate on AI and ML projects
