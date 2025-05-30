@@ -19,14 +19,14 @@
 - Autonomous AI Agents & Agentic Architectures  
 - Real-Time ML Systems (Kafka + Streaming Inference)  
 - Multi-Agent Reinforcement Learning  
-- Applied LLMs in Developer Tools, Interviews, and War Simulation  
+- Applied LLMs in Developer Tools and real-worl applications  
 - Human-like Sentiment & Behavior Analysis  
 
 ---
 
 ### 💼 Projects I'm Proud Of
 - 🎤 **InterXAI** – AI Interviewer platform powered by LLMs and behavioral sentiment analysis    
-- 🏥 **Argya Kosh** – Blockchain-based EHR system with AI-driven accident detection & prescription scraping
+- 🏥 **Arogya Kosh** – Blockchain-based EHR system with AI-driven accident detection & prescription scraping
 
 ---
 
@@ -42,7 +42,7 @@
 
 ### 🛠️ Tech Toolbox
 <p>
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,docker,kafka,flask,linux,git,mysql,postgresql" />
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,docker,kafka,fastapi,flask,linux,git,mysql,postgresql" />
 </p>
 
 ---
