@@ -42,7 +42,7 @@
 
 ### 🛠️ Tech Toolbox
 <p>
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,scikitlearndocker,kafka,fastapi,flask,django,linux,git,mysql,postgresql" />
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,scikitlearn,docker,kafka,fastapi,flask,django,linux,git,mysql,postgresql" />
 </p>
 
 ---
