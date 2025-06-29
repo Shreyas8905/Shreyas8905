@@ -1,58 +1,57 @@
-<h1 align="center">Hi 👋, I'm Shreyas Kulkarni</h1>
-<h3 align="center">AI/ML Enthusiast | Researcher | Builder of Intelligent Systems</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=Turning+Ideas+into+Intelligent+Machines;Building+the+Future+with+AI;Exploring+Human-like+Reasoning+through+Code" />
-</p>
+# Hi 👋, I'm Shreyas Kulkarni  
+**Machine Learning & Data Science Enthusiast | Builder of Intelligent Systems | Researcher in Agentic AI & LLMs**
 
 ---
 
-### 🚀 About Me
-- 🎓 I'm an AI & ML undergraduate at Dayanand Sagar College of Engineering (Batch of 2027)
-- 💡 Exploring Agentic AI, Reinforcement Learning, and Real-Time ML Inference
-- 🌱 Learning how to **embed LLMs into real-time decision-making pipelines**
-- 🛠️ Favorite stack: `Python`, `PyTorch`, `LangChain`, `Flask`, `Kafka`
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=Transforming+Data+into+Intelligence;Engineering+Smart+ML+Systems;Advancing+Agentic+AI+and+LLMs)
 
 ---
 
-### 🧠 Areas of Interest
-- Autonomous AI Agents & Agentic Architectures  
-- Real-Time ML Systems (Kafka + Streaming Inference)  
-- Multi-Agent Reinforcement Learning  
-- Applied LLMs in Developer Tools and real-worl applications  
-- Human-like Sentiment & Behavior Analysis  
+## 🚀 About Me
+- 🎓 AI & ML undergraduate at Dayanand Sagar College of Engineering (Batch of 2027)
+- 💡 Passionate about **Machine Learning**, **Data Science**, and **Real-Time ML Inference**
+- 🌱 Currently exploring **Agentic AI frameworks**, **LLM-powered decision systems**, and **multi-agent learning**
+- 🛠️ Favorite stack: `Python`, `PyTorch`, `scikit-learn`, `LangChain`, `Flask`, `Kafka`
 
 ---
 
-### 💼 Projects I'm Proud Of
-- 🎤 **InterXAI** – AI Interviewer platform powered by LLMs and behavioral sentiment analysis    
-- 🏥 **Arogya Kosh** – Blockchain-based EHR system with AI-driven accident detection & prescription scraping
+## 🧠 Areas of Interest
+- Machine Learning for Real-World Impact  
+- Data Science for Pattern Discovery and Insight  
+- Real-Time ML Pipelines with Streaming Data (Kafka + ML inference)  
+- Agentic AI Systems & Multi-Agent Collaboration  
+- Embedding LLMs in Decision-Making & Developer Tools  
+- Human-Centered Sentiment and Behavior Analysis  
 
 ---
 
-### 🌐 Let's Collaborate
-> Building something in Agentic AI, Smart Defense Systems, or Applied LLMs? Let’s innovate together.
+## 💼 Projects I'm Proud Of
+- 🎤 **InterXAI** – A machine learning-powered AI interviewer platform using LLMs and sentiment analytics  
+- 🏥 **Arogya Kosh** – Blockchain-based EHR system integrated with AI models for accident detection and prescription processing  
+
+---
+
+## 🌐 Let’s Collaborate
+> Building in **Machine Learning**, **Data Science**, **Agentic AI**, or **Applied LLMs**? Let’s create something meaningful together.
 
 📫 Reach out:  
 - 💬 Discord: `shreyas7905`  
-- 📨 Email: shreyasrk792005@gmail.com 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/) | [Instagram](https://www.instagram.com/shreyas_7905/)  
+- 📨 Email: shreyasrk792005@gmail.com  
+- 🌐 [LinkedIn](https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/) | [Instagram](https://www.instagram.com/shreyas_7905/)
 
 ---
 
-### 🛠️ Tech Toolbox
-<p>
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,scikitlearn,docker,kafka,fastapi,flask,django,linux,git,mysql,postgresql" />
-</p>
+## 🛠️ Tech Toolbox
+![Tech stack](https://skillicons.dev/icons?i=python,tensorflow,pytorch,scikitlearn,docker,kafka,fastapi,flask,django,linux,git,mysql,postgresql)
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Shreyas8905&theme=tokyonight" />
-  <br />
+  <br/>
   <img src="https://github-readme-stats.vercel.app/api?username=Shreyas8905&show_icons=true&theme=tokyonight&count_private=true" />
-  <br />
+  <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact&theme=tokyonight" />
 </p>
 
