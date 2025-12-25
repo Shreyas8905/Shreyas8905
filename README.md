@@ -37,12 +37,13 @@ I’m an **aspiring AI researcher and systems builder** with strong experience i
 
 ### 🧠 **S2TD – Self-Correcting Agentic RAG System**  
 An adaptive **System-2 thinking RAG agent** that evaluates retrieved context, rewrites queries when needed, and uses an ensemble of LLMs to reduce hallucinations and improve answer relevance.
-[Check it on GitHub](URL)
+[Check it on GitHub](https://github.com/Shreyas8905/S2TD)
 
 ---
 
 ### ⚡ **AIPES – AI Powered Evaluation System** 
 A **multi-agent, asynchronous AI orchestration system** for evaluating pitch decks at scale, combining visual critique and logical analysis using parallel LangGraph agents.
+[Check it on GitHub](https://github.com/Shreyas8905/aipes)
 
 ---
 
