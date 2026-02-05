@@ -82,7 +82,7 @@ Developed and deployed multiple **end-to-end web applications**, handling everyt
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Shreyas8905&repo=github-readme-stats)
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shreyas8905&repo=github-readme-stats" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shreyas8905&repo=Shreyas8905" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact" />
 </div>
 
