@@ -78,23 +78,6 @@ Developed and deployed multiple **end-to-end web applications**, handling everyt
 
 ---
 
-## 📊 GitHub Ecosystem
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shreyas8905&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=86400" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact&theme=tokyonight&cache_seconds=86400" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Shreyas8905&theme=tokyonight" />
-</div>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shreyas8905&theme=matrix&column=7" />
-</p>
-
----
-
 ## 💻 Languages Composition
 
 <div align="center">
@@ -104,7 +87,7 @@ Developed and deployed multiple **end-to-end web applications**, handling everyt
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shreyas8905&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Shreyas8905&theme=tokyonight&utcOffset=5.5" />
+  <!-- <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Shreyas8905&theme=tokyonight&utcOffset=5.5" /> -->
 </div>
 
 <div align="center">
