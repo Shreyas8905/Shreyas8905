@@ -78,21 +78,23 @@ Developed and deployed multiple **end-to-end web applications**, handling everyt
 
 ---
 
-## 💻 Languages Composition
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Shreyas8905&repo=github-readme-stats)
+## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shreyas8905&repo=Shreyas8905" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Shreyas8905&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shreyas8905&theme=tokyonight" />
-  <!-- <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Shreyas8905&theme=tokyonight&utcOffset=5.5" /> -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyas8905&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shreyas8905&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shreyas8905&theme=tokyonight" alt="Repos per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Shreyas8905&theme=tokyonight" alt="Most Commit Language" />
 </div>
 
 ---
