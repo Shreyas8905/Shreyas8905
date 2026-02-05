@@ -1,6 +1,8 @@
 # Hi 👋, I'm Shreyas Kulkarni  
 ### Aspiring AI Researcher | Agentic AI Engineer | DL | Backend Developer  
 
+🌐 **Portfolio:** [shreyas8905.github.io/Shreyas8905](https://shreyas8905.github.io/Shreyas8905/)
+
 ---
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Building+Agentic+AI+Systems;Engineering+Full-Code+LLM+Workflows;From+Research+to+Production+AI)
@@ -79,8 +81,8 @@ Developed and deployed multiple **end-to-end web applications**, handling everyt
 ## 📊 GitHub Ecosystem
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shreyas8905&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shreyas8905&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=86400" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact&theme=tokyonight&cache_seconds=86400" />
 </div>
 
 <div align="center">
@@ -93,6 +95,24 @@ Developed and deployed multiple **end-to-end web applications**, handling everyt
 
 ---
 
+## 💻 Languages Composition
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shreyas8905&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Shreyas8905&theme=tokyonight" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shreyas8905&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Shreyas8905&theme=tokyonight&utcOffset=5.5" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shreyas8905&theme=tokyonight" />
+</div>
+
+---
+
 ## 🌐 Let’s Collaborate
 
 > Interested in **Agentic AI**, **LLM systems**, or **AI backends at scale**?  
@@ -100,7 +120,7 @@ Developed and deployed multiple **end-to-end web applications**, handling everyt
 
 📫 **Reach out** - 💬 **Discord:** `shreyas7905`  
 - 📨 **Email:** `shreyasrk792005@gmail.com`  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/) | [Instagram](https://www.instagram.com/shreyas_7905/)
+- 🌐 [Portfolio](https://shreyas8905.github.io/Shreyas8905/) | [LinkedIn](https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/) | [Instagram](https://www.instagram.com/shreyas_7905/)
 
 <p align="center">
   <i>"Research the intelligence. Engineer the system."</i>
