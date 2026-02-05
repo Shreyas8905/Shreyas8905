@@ -50,12 +50,6 @@ export default function Contact() {
               shreyaskulkarni159@gmail.com
             </a>
           </div>
-          
-          <div className="contact-card glass">
-            <FaLinkedin className="contact-icon" style={{ color: '#5865f2' }} />
-            <span className="contact-label">LinkedIn</span>
-            <a><span className="contact-value">shreyas-kulkarni-aiml</span></a>
-          </div>
         </motion.div>
 
         <motion.div
