@@ -1,0 +1,72 @@
+.tech-stack {
+  min-height: 100vh;
+  padding: 100px 0;
+}
+
+.tech-category {
+  margin-bottom: 50px;
+}
+
+.category-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  color: #a0a0b0;
+  margin-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 30px;
+  min-width: 120px;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.tech-item:hover {
+  border-color: var(--tech-color);
+}
+
+.tech-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
+}
+
+.tech-item:hover .tech-icon {
+  transform: scale(1.2);
+}
+
+.tech-name {
+  font-size: 0.9rem;
+  color: #a0a0b0;
+  font-weight: 500;
+  text-align: center;
+}
+
+.tech-item:hover .tech-name {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .tech-item {
+    min-width: 100px;
+    padding: 20px;
+  }
+  
+  .tech-icon {
+    font-size: 2rem;
+  }
+}

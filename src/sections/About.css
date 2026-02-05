@@ -1,0 +1,112 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-tag {
+  font-family: 'JetBrains Mono', monospace;
+  color: #6b6b80;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.section-tag.closing {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.section-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-text p {
+  color: #a0a0b0;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.highlight {
+  color: #00d4ff;
+  font-weight: 500;
+}
+
+.about-quote {
+  margin-top: 30px;
+  padding: 20px;
+  border-left: 3px solid #8b5cf6;
+  background: rgba(139, 92, 246, 0.1);
+  font-style: italic;
+  color: #a0a0b0;
+  font-size: 1.1rem;
+}
+
+.quote-mark {
+  color: #8b5cf6;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.interest-card {
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.interest-card:hover {
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.2);
+}
+
+.interest-icon {
+  font-size: 2.5rem;
+  color: #00d4ff;
+  margin-bottom: 15px;
+}
+
+.interest-card h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.interest-card p {
+  color: #6b6b80;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+}
