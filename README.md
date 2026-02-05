@@ -81,8 +81,8 @@ Developed and deployed multiple **end-to-end web applications**, handling everyt
 ## 💻 Languages Composition
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shreyas8905&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Shreyas8905&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shreyas8905&repo=github-readme-stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact" />
 </div>
 
 <div align="center">
