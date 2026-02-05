@@ -46,15 +46,15 @@ export default function Contact() {
           <div className="contact-card glass">
             <FaEnvelope className="contact-icon" />
             <span className="contact-label">Email</span>
-            <a href="mailto:shreyasrk792005@gmail.com" className="contact-value">
-              shreyasrk792005@gmail.com
+            <a href="mailto:shreyaskulkarni159@gmail.com" className="contact-value">
+              shreyaskulkarni159@gmail.com
             </a>
           </div>
           
           <div className="contact-card glass">
-            <FaDiscord className="contact-icon" style={{ color: '#5865f2' }} />
-            <span className="contact-label">Discord</span>
-            <span className="contact-value">shreyas7905</span>
+            <FaLinkedin className="contact-icon" style={{ color: '#5865f2' }} />
+            <span className="contact-label">LinkedIn</span>
+            <a><span className="contact-value">shreyas-kulkarni-aiml</span></a>
           </div>
         </motion.div>
 
