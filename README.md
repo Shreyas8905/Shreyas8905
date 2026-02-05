@@ -88,8 +88,6 @@ Developed and deployed multiple **end-to-end web applications**, handling everyt
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyas8905&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
 </div>
 
-## 💻 Languages Composition
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
