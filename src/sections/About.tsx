@@ -4,8 +4,8 @@ import './About.css';
 
 const interests = [
   { icon: <FaBrain />, title: "Core LLMs", desc: "Deep understanding of transformer architectures" },
-  { icon: <FaRobot />, title: "Agentic AI", desc: "Multi-agent orchestration systems" },
   { icon: <FaCode />, title: "Deep Learning", desc: "Neural network research & implementation" },
+  { icon: <FaRobot />, title: "Agentic AI", desc: "Multi-agent orchestration systems" },
   { icon: <FaGraduationCap />, title: "Mathematics", desc: "The foundations behind intelligence" },
 ];
 
