@@ -65,7 +65,7 @@ function Connections({ nodes }: { nodes: [number, number, number][] }) {
 
   return (
     <lineSegments ref={linesRef} geometry={geometry}>
-      <lineBasicMaterial color="#8b5cf6" transparent opacity={0.2} />
+      <lineBasicMaterial color="#06b6d4" transparent opacity={0.2} />
     </lineSegments>
   );
 }
@@ -152,7 +152,7 @@ function DataParticles() {
 
   return (
     <points ref={pointsRef} geometry={geometry}>
-      <pointsMaterial color="#ec4899" size={0.03} transparent opacity={0.6} sizeAttenuation />
+      <pointsMaterial color="#10b981" size={0.03} transparent opacity={0.6} sizeAttenuation />
     </points>
   );
 }

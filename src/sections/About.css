@@ -50,15 +50,15 @@
 .about-quote {
   margin-top: 30px;
   padding: 20px;
-  border-left: 3px solid #8b5cf6;
-  background: rgba(139, 92, 246, 0.1);
+  border-left: 3px solid #06b6d4;
+  background: rgba(6, 182, 212, 0.1);
   font-style: italic;
   color: #a0a0b0;
   font-size: 1.1rem;
 }
 
 .quote-mark {
-  color: #8b5cf6;
+  color: #06b6d4;
   font-size: 1.5rem;
   font-weight: 700;
 }
