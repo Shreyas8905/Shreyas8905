@@ -19,7 +19,7 @@ const projects = [
     description: "A multi-agent, asynchronous AI orchestration system for evaluating pitch decks at scale, combining visual critique and logical analysis using parallel LangGraph agents.",
     tags: ["Multi-Agent", "LangGraph", "Async", "Evaluation"],
     github: "https://github.com/Shreyas8905/aipes",
-    color: "#8b5cf6"
+    color: "#06b6d4"
   },
   {
     icon: <FaMicrophone />,
@@ -27,7 +27,7 @@ const projects = [
     subtitle: "AI Interview Platform",
     description: "An AI-powered interviewer platform leveraging LLMs and sentiment analysis to dynamically evaluate candidates. Developed the Core AI pipeline and real-time response logic.",
     tags: ["LLMs", "Sentiment Analysis", "Real-time", "AI Pipeline"],
-    color: "#ec4899"
+    color: "#10b981"
   },
   {
     icon: <FaHospital />,
