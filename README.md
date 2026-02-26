@@ -38,7 +38,7 @@ I’m an **aspiring AI researcher and systems builder** with strong experience i
 
 ## 💼 Projects & Technical Experience
 
-### 🧠 **Exoplanet Identification using Convolutional Autoencoder** A fully unsupervised deep-learning pipeline for detecting signatures of hidden exoplanets in synthetic ALMA continuum observations of protoplanetary disks.
+### 🪐 **Exoplanet Identification using Convolutional Autoencoder** A fully unsupervised deep-learning pipeline for detecting signatures of hidden exoplanets in synthetic ALMA continuum observations of protoplanetary disks. Used **Convolutional Auto Encoders** to address unsupervised task.
 [Check it on GitHub](https://github.com/Shreyas8905/Exoplanet-Identification-using-autoencoder)
 
 ---
