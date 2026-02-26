@@ -1,8 +1,18 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaBrain, FaRobot, FaMicrophone, FaHospital } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaBrain, FaRobot, FaMicrophone } from 'react-icons/fa';
+import { GiPlanetCore } from 'react-icons/gi';
 import './Projects.css';
 
 const projects = [
+  {
+    icon: <GiPlanetCore />,
+    title: "Exoplanet Detection",
+    subtitle: "Unsupervised Deep Learning for Protoplanetary Disks",
+    description: "A fully unsupervised deep-learning pipeline for detecting hidden exoplanet signatures in synthetic ALMA continuum observations. Uses a convolutional autoencoder, UMAP, and HDBSCAN to cluster morphological anomalies — invariant to disk inclination and position angle.",
+    tags: ["PyTorch", "Autoencoder", "UMAP", "HDBSCAN"],
+    github: "https://github.com/Shreyas8905/Exoplanet-Identification-using-autoencoder",
+    color: "#a855f7"
+  },
   {
     icon: <FaBrain />,
     title: "S2TD",
@@ -28,14 +38,6 @@ const projects = [
     description: "An AI-powered interviewer platform leveraging LLMs and sentiment analysis to dynamically evaluate candidates. Developed the Core AI pipeline and real-time response logic.",
     tags: ["LLMs", "Sentiment Analysis", "Real-time", "AI Pipeline"],
     color: "#10b981"
-  },
-  {
-    icon: <FaHospital />,
-    title: "Arogya Kosh",
-    subtitle: "Blockchain EHR with AI",
-    description: "A blockchain-based Electronic Health Record (EHR) system integrated with AI models for accident detection and prescription processing. Architected the Core AI integration.",
-    tags: ["Blockchain", "Healthcare", "AI", "EHR"],
-    color: "#00ff88"
   }
 ];
 
