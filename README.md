@@ -38,6 +38,11 @@ I’m an **aspiring AI researcher and systems builder** with strong experience i
 
 ## 💼 Projects & Technical Experience
 
+### 🧠 **Exoplanet Identification using Convolutional Autoencoder** A fully unsupervised deep-learning pipeline for detecting signatures of hidden exoplanets in synthetic ALMA continuum observations of protoplanetary disks.
+[Check it on GitHub](https://github.com/Shreyas8905/Exoplanet-Identification-using-autoencoder)
+
+---
+
 ### 🧠 **S2TD – Self-Correcting Agentic RAG System** An adaptive **System-2 thinking RAG agent** that evaluates retrieved context, rewrites queries when needed, and uses an ensemble of LLMs to reduce hallucinations and improve answer relevance.
 [Check it on GitHub](https://github.com/Shreyas8905/S2TD)
 
