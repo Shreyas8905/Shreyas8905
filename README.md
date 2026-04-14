@@ -1,5 +1,5 @@
 # Hi 👋, I'm Shreyas Kulkarni  
-### Aspiring AI Researcher | Agentic AI Engineer | DL | Backend Developer  
+### AI Researcher | Deep Learning Engineer | Agentic AI Engineer | Backend Developer | Part-Time Mathematician
 
 🌐 **Portfolio:** [shreyas8905.github.io/Shreyas8905](https://shreyas8905.github.io/Shreyas8905/)
 
