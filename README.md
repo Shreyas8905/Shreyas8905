@@ -11,7 +11,7 @@
 
 ## 🚀 About Me
 
-I’m an **aspiring AI researcher and systems builder** with strong experience in **agentic AI workflows, LLM orchestration, and backend engineering for ML/DL systems**.
+I’m an **AI researcher and systems builder** with strong experience in **agentic AI workflows, LLM orchestration, and backend engineering for ML/DL systems**.
 
 - 🎓 AI & ML Undergraduate @ Dayanand Sagar College of Engineering (Batch of 2027)
 - 🧠 Focused on **Core LLMs**, **Agentic AI**, **LLM reasoning systems**, and **multi-agent orchestration**
