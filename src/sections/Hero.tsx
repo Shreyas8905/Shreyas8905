@@ -1,39 +1,42 @@
-import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { HiArrowDown } from 'react-icons/hi';
-import './Hero.css';
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiArrowDown } from "react-icons/hi";
+import "./Hero.css";
 
 const roles = [
+  "Obssessed with Deep Learning",
   "Building Agentic AI Systems",
   "Engineering Full-Code LLM Workflows",
   "From Research to Production AI",
-  "Deep Learning Enthusiast"
 ];
 
 export default function Hero() {
   const [roleIndex, setRoleIndex] = useState(0);
-  const [displayText, setDisplayText] = useState('');
+  const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
     const currentRole = roles[roleIndex];
-    const timeout = setTimeout(() => {
-      if (!isDeleting) {
-        if (displayText.length < currentRole.length) {
-          setDisplayText(currentRole.slice(0, displayText.length + 1));
+    const timeout = setTimeout(
+      () => {
+        if (!isDeleting) {
+          if (displayText.length < currentRole.length) {
+            setDisplayText(currentRole.slice(0, displayText.length + 1));
+          } else {
+            setTimeout(() => setIsDeleting(true), 2000);
+          }
         } else {
-          setTimeout(() => setIsDeleting(true), 2000);
+          if (displayText.length > 0) {
+            setDisplayText(displayText.slice(0, -1));
+          } else {
+            setIsDeleting(false);
+            setRoleIndex((prev) => (prev + 1) % roles.length);
+          }
         }
-      } else {
-        if (displayText.length > 0) {
-          setDisplayText(displayText.slice(0, -1));
-        } else {
-          setIsDeleting(false);
-          setRoleIndex((prev) => (prev + 1) % roles.length);
-        }
-      }
-    }, isDeleting ? 50 : 100);
+      },
+      isDeleting ? 50 : 100,
+    );
 
     return () => clearTimeout(timeout);
   }, [displayText, isDeleting, roleIndex]);
@@ -67,9 +70,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          Aspiring AI Researcher | Deep Learning & Agentic AI Engineer
+          AI Researcher | Deep Learning Engineer | Agentic AI Engineer | Backend
+          Developer | Part-Time Mathematician
         </motion.h2>
-
         <motion.div
           className="hero-typewriter"
           initial={{ opacity: 0 }}
@@ -87,10 +90,20 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.8 }}
         >
-          <a href="https://github.com/Shreyas8905" target="_blank" rel="noopener noreferrer" className="btn-primary">
+          <a
+            href="https://github.com/Shreyas8905"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary"
+          >
             <FaGithub /> GitHub
           </a>
-          <a href="https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/" target="_blank" rel="noopener noreferrer" className="btn-primary">
+          <a
+            href="https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary"
+          >
             <FaLinkedin /> LinkedIn
           </a>
         </motion.div>
@@ -100,9 +113,9 @@ export default function Hero() {
           className="scroll-indicator"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, y: [0, 10, 0] }}
-          transition={{ 
+          transition={{
             opacity: { delay: 1.2 },
-            y: { duration: 1.5, repeat: Infinity }
+            y: { duration: 1.5, repeat: Infinity },
           }}
         >
           <HiArrowDown />

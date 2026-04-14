@@ -1,12 +1,31 @@
-import { motion } from 'framer-motion';
-import { FaGraduationCap, FaBrain, FaCode, FaRobot } from 'react-icons/fa';
-import './About.css';
+import { motion } from "framer-motion";
+import { FaBrain, FaRobot } from "react-icons/fa";
+import { TbMathFunction } from "react-icons/tb";
+import { PiGraphBold } from "react-icons/pi";
+import "./About.css";
 
 const interests = [
-  { icon: <FaBrain />, title: "Core LLMs", desc: "Deep understanding of transformer architectures" },
-  { icon: <FaCode />, title: "Deep Learning", desc: "Neural network research & implementation" },
-  { icon: <FaRobot />, title: "Agentic AI", desc: "Multi-agent orchestration systems" },
-  { icon: <FaGraduationCap />, title: "Mathematics", desc: "The foundations behind intelligence" },
+  {
+    icon: <PiGraphBold />,
+    title: "Deep Learning",
+    desc: "Neural network research & implementation",
+  },
+
+  {
+    icon: <FaBrain />,
+    title: "Core LLMs",
+    desc: "Deep understanding of transformer architectures",
+  },
+  {
+    icon: <FaRobot />,
+    title: "Agentic AI",
+    desc: "Multi-agent orchestration systems",
+  },
+  {
+    icon: <TbMathFunction />,
+    title: "Mathematics",
+    desc: "The foundations behind intelligence",
+  },
 ];
 
 export default function About() {
@@ -35,20 +54,27 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p>
-              I'm an <span className="highlight">aspiring AI researcher and systems builder</span> with 
-              strong experience in agentic AI workflows, LLM orchestration, and backend engineering 
-              for ML/DL systems.
+              I'm an{" "}
+              <span className="highlight">
+                AI researcher and systems builder
+              </span>{" "}
+              with strong experience in Deep Learning, agentic AI workflows, LLM
+              orchestration, and backend engineering for ML systems.
             </p>
             <p>
-              Currently pursuing <span className="highlight">AI & ML</span> at Dayanand Sagar College 
-              of Engineering (Batch of 2027), I focus on building <span className="highlight">full-code 
-              AI workflows</span> — avoiding low-code abstractions for maximum control and understanding.
+              Currently pursuing <span className="highlight">AI & ML</span> at
+              Dayanand Sagar College of Engineering (Batch of 2027), I focus on
+              building <span className="highlight">full-code AI workflows, </span>{" "}
+              avoiding low-code abstractions for maximum control and
+              understanding.
             </p>
             <p>
-              My expertise spans from <span className="highlight">core LLM reasoning systems</span> to 
-              production-grade backend development with Django, Flask, and FastAPI.
+              My expertise spans from{" "}
+              <span className="highlight">core Deep Learning</span> to
+              production-grade backend development with Django, Flask, and
+              FastAPI.
             </p>
-            
+
             <div className="about-quote">
               <span className="quote-mark">"</span>
               Research the intelligence. Engineer the system.
@@ -67,7 +93,7 @@ export default function About() {
               <motion.div
                 key={item.title}
                 className="interest-card glass"
-                whileHover={{ scale: 1.05, borderColor: '#00d4ff' }}
+                whileHover={{ scale: 1.05, borderColor: "#00d4ff" }}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
