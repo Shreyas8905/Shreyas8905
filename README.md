@@ -5,7 +5,7 @@
 
 ---
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Building+Agentic+AI+Systems;Engineering+Full-Code+LLM+Workflows;From+Research+to+Production+AI)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Building+Production-Ready+AI+Systems;Engineering+LLMs+%26+Agentic+AI;Designing+End-to-End+AI+Workflows;From+Research+to+Real-World+Deployment;AI+Engineer+%7C+LLMs+%7C+MLOps)
 
 ---
 
