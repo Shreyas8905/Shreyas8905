@@ -3,12 +3,14 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiArrowDown } from "react-icons/hi";
 import "./Hero.css";
+import photo from "../assets/photo.png";
 
 const roles = [
-  "Obssessed with Deep Learning",
-  "Building Agentic AI Systems",
-  "Engineering Full-Code LLM Workflows",
-  "From Research to Production AI",
+  "Building Production-Ready AI Systems",
+  "Engineering LLM & Agentic AI",
+  "From Research to Real-World Deployment",
+  "Designing Intelligent AI Workflows",
+  "Deep Learning Enthusiast",
 ];
 
 export default function Hero() {
@@ -44,82 +46,86 @@ export default function Hero() {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <motion.div
-          className="hero-greeting"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <span className="greeting-text">Hi, I'm</span>
-        </motion.div>
-
-        <motion.h1
-          className="hero-name"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <span className="name-glitch" data-text="Shreyas Kulkarni">
-            Shreyas Kulkarni
-          </span>
-        </motion.h1>
-
-        <motion.h2
-          className="hero-title"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-        >
-          AI Researcher | Deep Learning Engineer | Agentic AI Engineer | Backend
-          Developer | Part-Time Mathematician
-        </motion.h2>
-        <motion.div
-          className="hero-typewriter"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-        >
-          <span className="typewriter-prefix">&gt;</span>
-          <span className="typewriter-text">{displayText}</span>
-          <span className="typewriter-cursor">|</span>
-        </motion.div>
-
-        <motion.div
-          className="hero-links"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
-        >
-          <a
-            href="https://github.com/Shreyas8905"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary"
+        <div className="hero-image-container">
+          <img src={photo} alt="Shreyas Kulkarni" className="hero-image" />
+        </div>
+        <div className="hero-text-container">
+          <motion.div
+            className="hero-greeting"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
           >
-            <FaGithub /> GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary"
-          >
-            <FaLinkedin /> LinkedIn
-          </a>
-        </motion.div>
+            <span className="greeting-text">Hi, I'm</span>
+          </motion.div>
 
-        <motion.a
-          href="#about"
-          className="scroll-indicator"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, y: [0, 10, 0] }}
-          transition={{
-            opacity: { delay: 1.2 },
-            y: { duration: 1.5, repeat: Infinity },
-          }}
-        >
-          <HiArrowDown />
-        </motion.a>
+          <motion.h1
+            className="hero-name"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            <span className="name-glitch" data-text="Shreyas Kulkarni">
+              Shreyas Kulkarni
+            </span>
+          </motion.h1>
+
+          <motion.h2
+            className="hero-title"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+          >
+            AI Engineer | LLMs | RAG | Agentic AI | MLOps | Python
+          </motion.h2>
+          <motion.div
+            className="hero-typewriter"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+          >
+            <span className="typewriter-prefix">&gt;</span>
+            <span className="typewriter-text">{displayText}</span>
+            <span className="typewriter-cursor">|</span>
+          </motion.div>
+
+          <motion.div
+            className="hero-links"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.8 }}
+          >
+            <a
+              href="https://github.com/Shreyas8905"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              <FaGithub /> GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              <FaLinkedin /> LinkedIn
+            </a>
+          </motion.div>
+
+          <motion.a
+            href="#about"
+            className="scroll-indicator"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, y: [0, 10, 0] }}
+            transition={{
+              opacity: { delay: 1.2 },
+              y: { duration: 1.5, repeat: Infinity },
+            }}
+          >
+            <HiArrowDown />
+          </motion.a>
+        </div>
       </div>
     </section>
   );

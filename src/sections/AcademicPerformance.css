@@ -1,0 +1,173 @@
+.academic-performance {
+  padding: var(--section-padding) 0;
+  position: relative;
+}
+
+.academic-performance .container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-tag {
+  display: inline-block;
+  color: grey;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-family: var(--font-display);
+  letter-spacing: 1px;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.academic-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+
+.semester-timeline {
+  display: grid;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.semester-card {
+  background: rgba(18, 18, 26, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all var(--transition-normal);
+}
+
+.semester-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--glow-cyan);
+  border-color: var(--primary-cyan);
+}
+
+.semester-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sgpa-cgpa {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.sgpa-cgpa .label {
+  color: var(--text-secondary);
+}
+
+.sgpa-cgpa .value {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.final-cgpa {
+  text-align: center;
+  background: rgba(18, 18, 26, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  transition: all var(--transition-normal);
+}
+
+.final-cgpa:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--glow-cyan);
+  border-color: var(--primary-cyan);
+}
+
+.final-cgpa h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cgpa-value {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cgpa-label {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 60px;
+  }
+
+  .academic-content {
+    gap: 2rem;
+  }
+
+  .semester-timeline {
+    gap: 1rem;
+  }
+
+  .semester-card {
+    padding: 1rem;
+  }
+
+  .semester-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .sgpa-cgpa {
+    font-size: 1rem;
+  }
+
+  .final-cgpa {
+    padding: 1.5rem;
+  }
+
+  .final-cgpa h2 {
+    font-size: 1.75rem;
+  }
+
+  .cgpa-value {
+    font-size: 2.5rem;
+  }
+
+  .cgpa-label {
+    font-size: 1rem;
+  }
+}

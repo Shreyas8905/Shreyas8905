@@ -1,0 +1,1 @@
+- [Portfolio Updates](memory/project_portfolio_updates.md) — Added user photo and academic performance section
