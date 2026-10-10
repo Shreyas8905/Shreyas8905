@@ -1,118 +1,133 @@
-# Hi 👋, I'm Shreyas Kulkarni  
-### AI Researcher | Deep Learning Engineer | Agentic AI Engineer | Backend Developer | Part-Time Mathematician
+# Shreyas Kulkarni
 
-🌐 **Portfolio:** [shreyas8905.github.io/Shreyas8905](https://shreyas8905.github.io/Shreyas8905/)
+**AI Engineer | Agentic AI and LLM Systems | Backend Developer**
 
----
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Building+Production-Ready+AI+Systems;Engineering+LLMs+%26+Agentic+AI;Designing+End-to-End+AI+Workflows;From+Research+to+Real-World+Deployment;AI+Engineer+%7C+LLMs+%7C+MLOps)
+Portfolio: [shreyas8905.github.io/Shreyas8905](https://shreyas8905.github.io/Shreyas8905/) | LinkedIn: [Shreyas Kulkarni](https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/) 
 
 ---
 
-## 🚀 About Me
+## Summary
 
-I’m an **AI researcher and systems builder** with strong experience in **agentic AI workflows, LLM orchestration, and backend engineering for ML/DL systems**.
+I design and build production-oriented AI systems, with a focus on agentic workflows, LLM orchestration, retrieval-augmented generation, and the backend infrastructure that supports them. I prefer full-code implementations over low-code abstractions, which gives me precise control over state management, latency, and failure handling.
 
-- 🎓 AI & ML Undergraduate @ Dayanand Sagar College of Engineering (Batch of 2027)
-- 🧠 Focused on **Core LLMs**, **Agentic AI**, **LLM reasoning systems**, and **multi-agent orchestration**
-- ⚙️ Backend expertise with **Django, Flask, FastAPI**
-- 🧩 Build **full-code AI workflows** (avoiding low-code/no-code abstractions for maximum control)
-- 📊 Strong foundation in **Data Science, ML, DL**; currently learning **Reinforcement Learning**
-- 🗄️ Worked with **SQL & NoSQL** databases (PostgreSQL, MongoDB)
+I am an AI and Machine Learning undergraduate at Dayanand Sagar College of Engineering (Batch of 2027), and I am open to internships and full-time roles in AI engineering, LLM systems, and ML backend development.
 
 ---
 
-## 🧠 Areas of Interest
+## Core Competencies
 
-- Core Large Language Models
-- Deep Learning
-- Mathematics behind Intelligence
-- Retrieval-Augmented Generation (RAG)  
-- Agentic AI & Multi-Agent Systems  
-- LLM reasoning, evaluation & self-correction  
-- Full-stack ML & AI backends  
-- Data-centric AI systems  
-- Reinforcement Learning  
+- **Agentic AI and LLM Orchestration:** ReAct-style agents, multi-agent pipelines, and stateful workflows using LangGraph and LangChain
+- **Retrieval-Augmented Generation:** Vector search, query rewriting, self-correction loops, and grounded, citation-backed generation
+- **Deep Learning:** PyTorch, convolutional architectures, unsupervised learning
+- **Backend Engineering:** FastAPI, Django, Flask, asynchronous services, REST API design
+- **Data Layer:** PostgreSQL, MongoDB, MySQL, ChromaDB
+- **Deployment:** Docker, Render, Netlify, Vercel, end-to-end delivery from schema design to cloud hosting
 
----
-
-## 💼 Projects & Technical Experience
-
-### 🪐 **Exoplanet Identification using Convolutional Autoencoder** A fully unsupervised deep-learning pipeline for detecting signatures of hidden exoplanets in synthetic ALMA continuum observations of protoplanetary disks. Used **Convolutional Auto Encoders** to address unsupervised task.
-[Check it on GitHub](https://github.com/Shreyas8905/Exoplanet-Identification-using-autoencoder)
+**Currently exploring:** Reinforcement Learning, LLM reasoning and evaluation, and the mathematical foundations of learning systems.
 
 ---
 
-### 🧠 **S2TD – Self-Correcting Agentic RAG System** An adaptive **System-2 thinking RAG agent** that evaluates retrieved context, rewrites queries when needed, and uses an ensemble of LLMs to reduce hallucinations and improve answer relevance.
-[Check it on GitHub](https://github.com/Shreyas8905/S2TD)
+## Featured Projects
+
+### Resector: Local-First Academic Research Workstation
+
+An agentic research platform that turns static PDF libraries into an interactive knowledge base, with grounded chat, citation graph analysis, and structured critique tools.
+
+- **Agentic RAG engine:** ReAct loop built with LangGraph that iteratively queries a local ChromaDB vector store and live web sources, enforcing inline citations to reduce hallucination.
+- **Recursive citation graph:** Traverses OpenAlex and Semantic Scholar (with ArXiv/DOI fallback) to build 50-paper citation networks, adds bibliographic coupling edges (Jaccard threshold of 0.035), and applies Louvain community detection to identify thematic clusters. Rendered with `react-force-graph-2d` and exportable to GEXF.
+- **Provider factory pattern:** Swappable LLM backends (Groq, OpenAI, Anthropic, Google Gemini) with no changes to orchestration logic.
+- **Research modules:** Methodology extraction, persona-based adversarial critique, jargon simplification, and a searchable research archive.
+- **Architecture:** Decoupled orchestration, vector, and relational layers so that research documents stay local. Deployable with a single `docker-compose up --build`.
+
+**Stack:** Python, FastAPI, LangGraph, ChromaDB, PostgreSQL, React, TypeScript, Docker
+[View on GitHub](https://github.com/Shreyas8905/Resector)
 
 ---
 
-### ⚡ **AIPES – AI Powered Evaluation System** A **multi-agent, asynchronous AI orchestration system** for evaluating pitch decks at scale, combining visual critique and logical analysis using parallel LangGraph agents.
-[Check it on GitHub](https://github.com/Shreyas8905/aipes)
+### S2TD: Self-Correcting Agentic RAG System
+
+An adaptive System-2 style RAG agent that evaluates retrieved context, rewrites queries when retrieval quality is poor, and uses an ensemble of LLMs to reduce hallucinations and improve answer relevance.
+
+**Stack:** Python, LangGraph, LangChain
+[View on GitHub](https://github.com/Shreyas8905/S2TD)
 
 ---
 
-### 🎤 **InterXAI** An AI-powered interviewer platform leveraging **LLMs and sentiment analysis** to dynamically evaluate candidates. Developed the Core AI pipeline and real-time response logic.
+### AIPES: AI-Powered Evaluation System
+
+A multi-agent, asynchronous orchestration system for evaluating pitch decks at scale. Parallel LangGraph agents combine visual critique with logical analysis to produce structured evaluations.
+
+**Stack:** Python, LangGraph, asynchronous agent orchestration
+[View on GitHub](https://github.com/Shreyas8905/aipes)
 
 ---
 
-### 🏥 **Arogya Kosh** A blockchain-based **Electronic Health Record (EHR)** system integrated with AI models for accident detection and prescription processing. Architected the Core AI integration.
+### Exoplanet Identification using Convolutional Autoencoders
+
+A fully unsupervised deep learning pipeline for detecting signatures of hidden exoplanets in synthetic ALMA continuum observations of protoplanetary disks, using convolutional autoencoders to flag anomalies without labeled data.
+
+**Stack:** Python, PyTorch
+[View on GitHub](https://github.com/Shreyas8905/Exoplanet-Identification-using-autoencoder)
 
 ---
 
-### 🤖 **Custom AI Workflow Engineering**
-Engineered numerous **production-grade AI workflows** for diverse web platforms, specializing in complex state management and high-performance inference.
-* **Preferred Stack:** LangGraph, LangChain, Groq (LPU inference).
+### InterXAI: AI Interview Platform
+
+An AI interviewer that uses LLMs and sentiment analysis to evaluate candidates dynamically. I developed the core AI pipeline and the real-time response logic.
 
 ---
 
-### 💻 **Full-Stack Systems Deployment**
-Developed and deployed multiple **end-to-end web applications**, handling everything from schema design to cloud deployment at scale.
-* **Preferred Stack:** React (TS), FastAPI, NeonDB (PostgreSQL), Render, Netlify/Vercel.
+### Arogya Kosh: Blockchain-Based Electronic Health Records
+
+A blockchain-backed EHR system integrated with AI models for accident detection and prescription processing. I architected the core AI integration.
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Professional Experience Highlights
 
-### Languages & Frameworks
-![Tech Stack](https://skillicons.dev/icons?i=python,javascript,typescript,pytorch,django,fastapi,flask,nodejs,react,vite,tailwind)
+**Custom AI Workflow Engineering**
+Built multiple production-grade AI workflows for web platforms, with emphasis on complex state management and low-latency inference.
+Preferred stack: LangGraph, LangChain, Groq (LPU inference).
 
-### Infrastructure & Databases
-![Infra](https://skillicons.dev/icons?i=postgresql,mongodb,mysql,docker,linux,git,neon,netlify,vercel)
+**Full-Stack Systems Deployment**
+Designed and deployed end-to-end web applications, covering database schema design, API development, frontend, and cloud deployment.
+Preferred stack: React (TypeScript), FastAPI, NeonDB (PostgreSQL), Render, Netlify/Vercel.
 
 ---
 
-## 📊 GitHub Stats
+## Technical Stack
+
+**Languages and Frameworks**
+
+![Languages and Frameworks](https://skillicons.dev/icons?i=python,pytorch,tensorflow,scikitlearn,fastapi,flask)
+
+**Databases**
+
+![Infrastructure and Databases](https://skillicons.dev/icons?i=postgresql,mongodb,mysql)
+
+**Infrastructure**
+
+![Infrastructure and Databases](https://skillicons.dev/icons?i=linux,github,docker,kubernetes)
+
+---
+
+## GitHub Activity
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Shreyas8905&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyas8905&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
-</div>
-
-<div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shreyas8905&theme=tokyonight" alt="Repos per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Shreyas8905&theme=tokyonight" alt="Most Commit Language" />
 </div>
 
 ---
 
-## 🌐 Let’s Collaborate
+## Contact
 
-> Interested in **Agentic AI**, **LLM systems**, or **AI backends at scale**?  
-> Let’s build something impactful.
+I am interested in roles involving agentic AI, LLM systems, and scalable AI backends. I am happy to discuss opportunities or collaborate on relevant projects.
 
-📫 **Reach out** - 💬 **Discord:** `shreyas7905`  
-- 📨 **Email:** `shreyasrk792005@gmail.com`  
-- 🌐 [Portfolio](https://shreyas8905.github.io/Shreyas8905/) | [LinkedIn](https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/) | [Instagram](https://www.instagram.com/shreyas_7905/)
+- Email: shreyaskulkarni159@gmail.com
+- LinkedIn: [linkedin.com/in/shreyas-kulkarni-083a5019b](https://www.linkedin.com/in/shreyas-kulkarni-083a5019b/)
+- Portfolio: [shreyas8905.github.io/Shreyas8905](https://shreyas8905.github.io/Shreyas8905/)
 
 <p align="center">
-  <i>"Research the intelligence. Engineer the system."</i>
+  <i>Research the intelligence. Engineer the system.</i>
 </p>
