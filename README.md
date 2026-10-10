@@ -97,9 +97,9 @@ Preferred stack: React (TypeScript), FastAPI, NeonDB (PostgreSQL), Render, Netli
 
 ## Technical Stack
 
-**Languages and Frameworks**
+**Languages, Frameworks and Technologies**
 
-![Languages and Frameworks](https://skillicons.dev/icons?i=python,pytorch,tensorflow,scikitlearn,fastapi,flask)
+![Languages and Frameworks](https://skillicons.dev/icons?i=python,pytorch,tensorflow,scikitlearn,fastapi,flask,redis,kafka)
 
 **Databases**
 
