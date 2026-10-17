@@ -112,10 +112,12 @@ Preferred stack: React (TypeScript), FastAPI, NeonDB (PostgreSQL), Render, Netli
 ---
 
 ## GitHub Activity
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyas8905&theme=tokyonight&hide_border=true"/>
+</div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shreyas8905&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyas8905&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shreyas8905&theme=tokyo-night&hide_border=true"/>
 </div>
 
 ---
