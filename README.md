@@ -28,18 +28,21 @@ I am an AI and Machine Learning undergraduate at Dayanand Sagar College of Engin
 ---
 
 ## Featured Projects
+**ReSector: Local-First AI Research Workstation**
+*Next.js 16, React 19, TypeScript, Tailwind v4, FastAPI, SQLite, ChromaDB, LangChain, Tauri v2*
 
-### Resector: Local-First Academic Research Workstation
+- Built a desktop and web research workstation that lets researchers chat with their PDF libraries, with every answer citing the paper and page and highlighting the exact passage.
+- Designed a RAG pipeline in FastAPI with embedded ChromaDB vector search and SQLite storage. It grounds answers in retrieved passages, checks citation numbers against what was actually retrieved, and fits context to each model's token budget.
+- Built an infinite-canvas research dashboard in React Flow. Users lay out papers, save highlighted quotes and figures, and draw typed links between ideas, and an AI agent suggests connections and gaps with evidence the user can accept or dismiss.
+- Developed a drafting environment with cite-while-writing, a sentence-by-sentence checker that flags claims their sources don't support, an autopilot that writes cited sections from the user's papers, version history with diffs, and Markdown export.
+- Added support for multiple drafts per dashboard, where the user chooses which drafts the AI may read for context.
+- Made it provider-agnostic: users bring their own Groq, Gemini, OpenAI or Anthropic key. Keys stay on the user's machine, which keeps the app private, and a live token-usage meter shows cost.
+- Packaged it as a Tauri v2 desktop installer distributed through GitHub Releases, with an in-app updater and an embedded backend. I diagnosed and fixed a stale-UI bug in the desktop webview with server-side cache headers.
+- Redesigned the UI for both new and older researchers: a true-black dark mode and a white light mode, brand and per-tool colour tokens, adjustable text size, a Ctrl+K command palette, a labelled navigation rail and keyboard-accessible controls.
+- Wrote unit tests for the backend helpers (grounding, token budgeting, draft AI, export) and the frontend logic (citation parsing, PDF highlight geometry, link wiring, draft helpers), plus a README, setup guide with an API-key walkthrough, and technical architecture documentation.
 
-An agentic research platform that turns static PDF libraries into an interactive knowledge base, with grounded chat, citation graph analysis, and structured critique tools.
-
-- **Agentic RAG engine:** ReAct loop built with LangGraph that iteratively queries a local ChromaDB vector store and live web sources, enforcing inline citations to reduce hallucination.
-- **Recursive citation graph:** Traverses OpenAlex and Semantic Scholar (with ArXiv/DOI fallback) to build 50-paper citation networks, adds bibliographic coupling edges (Jaccard threshold of 0.035), and applies Louvain community detection to identify thematic clusters. Rendered with `react-force-graph-2d` and exportable to GEXF.
-- **Provider factory pattern:** Swappable LLM backends (Groq, OpenAI, Anthropic, Google Gemini) with no changes to orchestration logic.
-- **Research modules:** Methodology extraction, persona-based adversarial critique, jargon simplification, and a searchable research archive.
-- **Architecture:** Decoupled orchestration, vector, and relational layers so that research documents stay local. Deployable with a single `docker-compose up --build`.
-
-**Stack:** Python, FastAPI, LangGraph, ChromaDB, PostgreSQL, React, TypeScript, Docker
+For a one-line version when space is tight: *Built a local-first AI research workstation (Next.js, FastAPI, ChromaDB, Tauri) with cited document chat, an AI-assisted research canvas, and a grounded writing environment, shipped as a cross-platform desktop app.*
+Github:
 [View on GitHub](https://github.com/Shreyas8905/Resector)
 
 ---
