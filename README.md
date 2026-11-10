@@ -115,8 +115,7 @@ Preferred stack: React (TypeScript), FastAPI, NeonDB (PostgreSQL), Render, Netli
 ---
 
 ## GitHub Activity
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Shreyas8905&theme=python-dark)](https://git.io/streak-stats)
-
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=shreyas8905&theme=cobalt)](https://git.io/streak-stats)
 
 ---
 
